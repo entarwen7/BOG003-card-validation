@@ -1,0 +1,130 @@
+
+
+      /*if (sumaImpar >= 10) {
+        arraySuma = sumaImpar.toString().split("")// se vuelve string y se separa.
+        numberLunh[i] = parseInt(arraySuma[0]) + parseInt(arraySuma[1])
+        sumaTotal = parseInt(sumaTotal) + parseInt(numberLunh[i]);
+        //console.log(numberLunh[i],"numberLunh",i);
+        // se llama el elemento y se suma entre si
+      }
+      else {
+        sumaTotal = parseInt(sumaTotal) + parseInt(numberLunh[i])
+        //console.log(i,"numberLunh3");
+      }
+      //sumaTotal = parseInt(sumaTotal) + parseInt(numberLunh[i]); // suma toral del resultado*/
+      //console.log(numberLunh[i],"numberLunh2",i);*/
+
+    }
+
+    if (sumaTotal % 10 == 0) {
+      // console.log(sumaTotal);
+      document.write("Tarjeta valida oh")
+      return true
+    }
+    else {
+      //console.log(sumaTotal);
+      document.write("Tarjeta no valida")
+      return false;
+    }
+  }
+
+  ,
+  /*maskify: function (inputNumero){
+ 
+    let numberOculto= imputNumero.length;
+    let maskify2= "";
+    for(let i=0;i<maskify2-4; i++){
+      maskify2+="*";
+        }
+  return maskify2 + imputNumero.substring(numberOculto-4,numberOculto);
+  }*/
+
+  /*mastiky: function (inputNumero) {
+
+    var numberHidden = inputNumero.length;
+    var lastDigit = numberHidden.slice(-4);
+    let masSymbol = "*";
+    var masked = masSymbol.repeat(12) + lastDigit;
+
+    document.querySelector(".inputRespuesta").innerHTML = " resultado de la tarjeta " + masked;
+
+    //console.log(masked);
+  }*/
+};
+
+
+  //* Reglas a ejecutar en el formulario llamado: número de tarjeta 
+  //formulario.inputNumero.addEventListener("keyup", (e) => {
+  //let valorInput = e.target.value;
+
+  //formulario.inputNumero.value = valorInput.replace(/\s/g, "")/* no admite el espaciado*/
+  //  .replace(/\D/g, "");/*no permite letras */
+  //});/*elimina el último espacio */
+
+
+        if (numberLunh[i] >= 10) {
+          arraySuma = numberLunh[i].string().split("")//suma los números mayores a 10 entre si(seguno intento)
+          if (arraySuma.length > 1) {
+            for (const i of arraySuma) {
+              sumaPar += Number(i);
+            }
+            sumaTotal += sumaPar;
+            sumaPar = 0;
+          }
+          else {
+            sumaTotal += numberLunh[i];
+          }
+        }
+        else {
+          let arrayItem = numberLunh[i];
+          sumaTotal += Number(arrayItem);
+        }
+      }
+      
+    }
+if (sumaTotal%10===0){
+  document.write(("Tarjeta valida oh"))
+  return true
+} else{
+  document.write("Tarjeta NO valida ")
+  return false
+}
+
+
+ /*maskify: function getResultado(inputNumero){
+  
+  let numberOculto= imputNumero.length;
+  let maskify2= "";
+  for(let i=0;i<maskify2-4; i++){
+  maskify2+="*";
+  }
+  return maskify2 + imputNumero.substring(numberOculto-4,numberOculto);
+  }*/
+
+
+        /*else if (i % 1!== 0){ //posición par utilizando desigualdad!==
+        sumaPar = Number(); 
+                                    
+      }*/
+      //console.log(sumaPar,"estoss")
+      //sumaTotal = parseInt(sumaPar) + parseInt(numberLunh[i]);
+      //console.log(sumaTotal, "resultado") 
+      
+       sumaTotal = parseInt(sumaTotal) + parseInt(numberLunh[i])
+       //console.log(i,"numberLunh3");
+     
+    }// aqui cierra el for
+
+    //sumaTotal= parseInt(sumatotal) + parseInt(numberLunh[i]);
+
+    /*for( var index = 0; index < numberLunh.length; i++){
+      if ( index !== 0){
+        sumaPar= numberLunh[index].Number();
+      }*/
+
+
+    //sumaTotal = parseInt(sumaPar) + parseInt(numberLunh[i]);
+    console.log(sumaTotal,)
+
+    //sumaTotal = parseInt(sumaTotal) + parseInt(numberLunh[i]); // suma toral del resultado*/
+    //console.log(numberLunh[i],"numberLunh2",i);*/

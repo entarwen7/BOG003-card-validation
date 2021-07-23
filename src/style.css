@@ -1,0 +1,300 @@
+body{
+    background-color: rgb(230, 231, 229);
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+head{
+    background-color: rgb(230, 231, 229);
+    align-content: center;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+header {
+
+height: 8;
+background-image: linear-gradient(to top, rgba(150, 251, 195, 0.507) 0%, rgba(249, 245, 134, 0.507) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+
+}
+    
+    #inicio {
+        background-color:white;
+        flex-direction: column;  
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        font-size: 48px;
+        margin: auto;  
+        font-family: 'Open Sans', sans-serif; 
+        justify-content: left;
+        align-items:initial;
+     }
+
+.titulopagina{
+    color:black;
+    text-align:none;
+    bottom: 100px;
+    float: left;
+
+}     
+
+ li {
+        display: inline;
+               text-align: right;
+               border-radius: 10px;
+               padding: 8px 5px 5px 5px;
+               margin: 5px;
+               background-color:lightsteelblue;
+               font-family: 'Open Sans', sans-serif; 
+               cursor: pointer;
+               text-decoration: none;
+               font-size: 18px;
+               bottom: 300px;
+               float:right;
+      }
+      
+/* imagen del logo de exovipcards aa*/
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-style:arial;
+    align-content: flex-start;
+    font-size: 36px;
+    float: none;
+    text-align: none;
+    bottom: auto;
+}
+
+
+.titulopagina{
+    display: inline-block;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 30%;
+}
+
+
+
+.superior{
+    display:flex;
+    float: left;
+    width: 100%;
+    max-width: 1200px;
+    left: 80px;
+    justify-content: left;
+    bottom: 200px;
+    align-items: flex-end;
+    -ms-text-combine-horizontal: all;
+}
+/*Desarrollo de la sesión main, enunciados, parrafos, fotos y botones*/
+main {
+    background-color:white;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.tarjeta {
+    width: 70%;
+    max-width: 400px;
+    left: 100px;
+    position:relative;
+    z-index: 2;
+    background-color:white;
+    display: inline-block;
+    align-content: center;
+    flex-direction: center;
+    text-justify: auto;
+}
+
+.formulario{
+    display: inline-block;
+    background-color: rgb(184, 176, 176);
+    height: 70px;
+    width: 35%;
+    max-width: 250px;
+    padding: 15px 0px 5px 5px;
+    border-radius:10px;
+    position: relative;
+    left: 35%;
+    bottom: 50px;
+    transform: translate(-50%,-50%);
+    }
+
+.formulario label { /*letra del form*/
+    display: block;
+    color:#5b5c5e;
+    margin-bottom: 5px;
+    font-size: 16px;
+    align-content: center;
+    bottom: 200px;
+ }
+
+.btn{
+    display: flex;
+    background-color: #31bd31;
+    font-size: 26px;
+    height: 50px;
+    width: 200px;
+    position:relative;
+    top: 50%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    align-content: center;
+    left: 68%;
+    transform: translate(-50%,-50%);
+
+}
+section{
+    background-attachment: fixed;
+    
+}
+article {
+
+        -webkit-flex: 3;
+        -ms-flex: 1;
+        flex: 6;
+        background-color:white;
+        padding: 20px;
+      }
+
+
+h2 {
+    color: rgb(21, 21, 70);
+    font-style:unset;
+    text-align:center;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif; 
+    top: 80px;
+}
+    
+
+h3 {
+   
+    text-align-last: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 24px;
+}   
+
+.comprobante {
+    background-color: white;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif; 
+
+}
+.comprobante.h1{
+
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+
+  }
+
+ .redes {
+   width: 20%;
+   border-radius: 5px;
+   position: relative;
+  right: none;
+  left: 800px;
+  bottom: 30px;
+    
+}
+/*Segunda pagina*/
+.segundaVen {
+    background-color:white;
+    height: 50vh;
+    width: 90%px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    bottom: 100px;
+}
+ .comprobante{
+     background-color: white;
+     text-align: center;
+     font-size: 60px;
+     font-family: 'Open Sans', sans-serif
+
+     
+ }
+    .h1{
+        font-family: 'Open Sans', sans-serif; 
+        font-size: 80px;
+        color:rgb(11, 14, 54);
+        text-align: center;
+     }
+     .texRespuesta{
+        font-family: 'Open Sans', sans-serif; 
+        font-size: 32px;
+        text-align: center;
+        
+    }
+     .formulario2{
+         display: block;
+         background-color: rgba(220, 248, 248, 0.712);
+         font-size: 24px;
+         width: 30%;
+         max-width: 250px;
+         padding: 7px 7px 7px 7px;
+         border-radius:10px;
+         left: 38%;
+         text-align: center;     
+         position: relative;
+        
+
+     }
+
+     .boton2{
+        display: flex;
+        font-family: 'Open Sans', sans-serif; 
+        font-size: 18px;
+        background-color: violet;
+        height: 70px;
+        width: 35%;
+        max-width: 280px;
+        position: relative;
+        padding: 5px 5px 5px 5px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        top: 50%;
+        left:50%;
+        transform:translate(-50%,50%) ;
+
+     }
+ 
+     .mensaje1 {
+         font-size: 32px;
+         font-family: 'Open Sans', sans-serif;
+         text-align: center;
+        color: green;
+     }

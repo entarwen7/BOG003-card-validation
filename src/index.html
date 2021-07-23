@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href= "https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="header" id="inicio">
+    <div class="contenedor header">
+      <h1 class="titulopagina">EXOVIPCARDS AA</h1>
+    </div>
+    <!--<img class="logo2" src="..//Logoevc1.png" alt="logotipo">-->
+    <img class="superior" src="partesuperior.png" id="arriba" alt="Parte arriba">
+    <ul>
+      <li><a href="">Quiénes somos</a></li>
+      <li><a href="">Preguntas frecuentes</a></li>
+      <li><a href="">Contacto</a></li>
+    </ul>
+
+
+  </header>
+
+  <main>
+
+    <section id="primera">
+      <h2>BIENVENIDOS</h2>
+      <h3>Validador de tarjetas de crédito</h3>
+      <article>
+        <p>Exovipcards AA es
+          Una aplicación para clientes del Banco CS, con la finalidad de ser una herramienta que le permita a cada uno
+          de los usuarios conocer y validar el estado de funcionamiento de la tarjeta expedida en las sucursales o
+          enviadas vía paquetería, con emisores Visa o Mastercard. </p>
+        <p> A continuación encontrará un espacio en el cual debe digitar el número PAN ("Personal Account Number"), el
+          cual corresponde a los dieciséis (16) números que con tiene en la parte frontal de la tarjeta, como en
+          ejemplo siguiente:</p><br>
+        <p>Instrucciones</p>
+        <p>1.Introducir los dieseis (16).</p>
+        <p>2.Dar en el botón validar para completar la acción.</p>
+        <p>3.Le mostrará un mensaje que le indicará el estado válido o no del plástico. </p>
+      </article>
+
+      <div class="tarjeta">
+        <img src="creditcardyellow.jpg" alt="Ejemplo de tarjeta" width="400" height="200">
+      </div>
+
+      <!--Fomulario de los números-->
+
+      <form action="" id="formulario" class="formulario">
+        <div class="grupo">
+          <label for="inputNumero">Número de tarjeta</label>
+          <input type="text" id="inputNumero" name="inputNumero1" maxlength="16" autocomplete="off"
+            placeholder="Ej. 123xxxxx">
+        </div>
+      </form>
+      <div id="validarInformacion">
+        <button type="button" id="btn" class="btn">Validar</button>
+      </div>
+      <p>*Recuerde que la aplicación no almacena los datos proporcionados por el usuario. </p> <br>
+    </section>
+
+  </main>
+
+  <!--La segunda pagina, que muestra el resultado-->
+  <section id="segunda" class="segundaVen" style="display:none;">
+    <div class="comprobante" id="comprobante">
+      <h1>EXOVIPCARDS AA</h1>
+    </div>
+    <div class="texRespuesta">
+      <p>El estado de su tarjeta es:</p>
+    </div>
+
+    <form action="" id="formulari2" class="formulario2">
+      <label for="inputRespuesta"></label>
+      <input type="text" id="inputRespuesta" maxlength="16" autocomplete="off">
+    </form> <br>
+    <div id="mensaje" >
+      <article id="mensajeValido" class="mensaje1">
+      </article>
+    </div>
+    <div class="Respuesta" id="respuesta">
+      <input type="button" class="boton2" value="Regresar a la pagina principal">
+    </div>
+
+  </section>
+
+  <footer>
+    <p>Copyright 2021 Exovipcards AA</p>
+    <img src="redessociales.jpg" alt="redes sociales" width="300" height="70" class="redes">
+
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
