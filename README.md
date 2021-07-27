@@ -4,10 +4,10 @@
 
 * [1. Título del proyecto](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Imagen proyecto  ](#3-Imagen)
+* [3. Imagen proyecto  ](#3-Imagen-proyecto)
 * [4. Experiencia ux ](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. prototipo final](#6-pistas-tips-y-lecturas-complementarias)
+* [5. Resumen Feedback](#5-Resumen-Feedback)
+* [6. Prototipo final](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -59,3 +59,4 @@ Prototipo N° 1 y 2 presentados para el feedback.
 
 ## 6. Imagen prototipo final
 
+Propotipo final
