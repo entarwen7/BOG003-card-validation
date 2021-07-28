@@ -1,7 +1,7 @@
 const validator = {
   isValid: function (inputNumero) {
 
-    var numberVa = inputNumero.split("");
+    let numberVa = inputNumero.split("");
     let numberLunh = numberVa.reverse();
     let arraySuma = 0;
     let sumaImpar = 0;
@@ -15,7 +15,7 @@ const validator = {
           arraySuma = sumaPar.toString().split("")// se vuelve string y se separa.
           numberLunh[i] = parseInt(arraySuma[0]) + parseInt(arraySuma[1])// se suman entres si para dar un solo número.          
         } else {
-          numberLunh[i] = sumaPar;// actualiza el valor de los Números par , que no se deben multiplicar
+          numberLunh[i] = sumaPar;// actualiza el valor de los números par , que no se deben multiplicar
         }
         sumaTotal = parseInt(sumaTotal) + parseInt(numberLunh[i]);
       } else if (i % 2 === 0) {

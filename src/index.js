@@ -26,7 +26,7 @@ document.getElementById("btn").addEventListener("click", () => {
 
 document.getElementById("validarInformacion").addEventListener("click", () => { vaResultado() });
 
-/*Dar la funcionalidad ala interfaz */
+/*Dar la funcionalidad a la interfaz */
 function vaResultado() {
   document.getElementById("primera").style.display = "none"
   document.getElementById("segunda").style.display = "block"

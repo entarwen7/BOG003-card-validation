@@ -7,7 +7,6 @@
 * [3. Imagen proyecto  ](#3-Imagen-proyecto)
 * [4. Experiencia ux ](#4-consideraciones-generales)
 * [5. Resumen Feedback](#5-Resumen-Feedback)
-* [6. Prototipo final](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
@@ -17,12 +16,13 @@ El proyecto tiene como titulo EXOVIPCARDS AA.
 
 ## 2. Resumen del proyecto
 
-El proyecto tendrá como fin plantear una opción para los clientes de bancos, que desee conocer el estado de la tarjeta de crédito que fue asignada en una sucursal del banco o enviada por paqueteria; al verificar a través del número PAN, si es valida o no.
+El proyecto tendrá como fin plantear una opción para los clientes de banco, que desee conocer el estado de la tarjeta de crédito que fue asignada en una sucursal del banco o enviada por paqueteria; al verificar a través del número PAN, si es valida o no.
  
 
 ## 3. Imagen proyecto
 
 Imagen final del proyecto:
+
 Vista página N°1
  ![imagen final del proyecto_pagina-1](imagenes/Pagina1.jpg)
 
@@ -32,7 +32,7 @@ Vista página N°2
 
 ## 4. Investigación ux
 
-* Los usuarios al que proyecto va dirigido son personas mayores de edad que tienen o estén vinculados con los servicios y productos brindados por una entidad bancaria, lo cual delimita una población adulta para usar la herramienta creada a través de la página EXOVIPCARDS AA.
+* Los usuarios al que proyecto va dirigido son personas mayores de edad que tienen o estén vinculados con los productos y servicios brindados(Tarjeta de crédito),  por una entidad bancaria, lo cual delimita una población adulta para usar la herramienta creada a través de la página EXOVIPCARDS AA.
 
 * El objetivo del usuario que ingresa o utiliza la página EXOVIPCARDS AA, llega con el objetivo de validar si la tarjeta de crédito expedida por la entidad bancaria es válida, para con ello, iniciar su uso en diferentes establecimientos o portales web.
 
@@ -45,7 +45,7 @@ Prototipo en papel
 
 ## 5. Resumen Feedback
 
-* En el espacio de feedback que se dio con un coach y con compañeras se resaltaron varios aspectos al tener presentes en el ejercicio de diseño del prototipo frente al css:  contraste y alineación de los elementos, sugiriendo manejar una paleta de colores más agradable al ojo del usuario, de acuerdo al tema para el proyecto.
+* En el espacio de feedback que se dio con un coach y con compañeras se resaltaron varios aspectos al tener presentes en el ejercicio de diseño del prototipo frente al css:  contraste y alineación de los elementos, sugiriendo manejar una paleta de colores más agradable a la vista del usuario, de acuerdo al tema para el proyecto.
 Adicionalmente el manejar iconos e imágenes mas sobrias, que le permitan al usuario navegar más ágilmente en la página sin distractores. 
 
 
@@ -54,9 +54,3 @@ Prototipo N° 1 y 2 presentados para el feedback.
 ![Protopito de Feedback 1](imagenes/1prototipo.jpg)
 ![Protopito de Feedback 2](imagenes/2prototipo.jpg)
 
-
-
-
-## 6. Imagen prototipo final
-
-Propotipo final
